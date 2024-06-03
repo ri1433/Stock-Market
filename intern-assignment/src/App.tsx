@@ -53,10 +53,10 @@ const App: React.FC = () => {
   ];
 
   useEffect(() => {
-    setChartData(dummyChartData);
+    // setChartData(dummyChartData);
 
     // Uncomment the below code to fetch real data from the API
-    /*
+
     const fetchIntradayData = async () => {
       const apiKey = "HGJWFG4N8AQ66ICD";
       const symbol = "FB";
@@ -64,7 +64,7 @@ const App: React.FC = () => {
       try {
         const response = await axios.get(`https://www.alphavantage.co/query`, {
           params: {
-            function: "TIME_SERIES_DAILY_ADJUSTED",
+            function: "TIME_SERIES_DAILY",
             symbol: symbol,
             outputsize: "compact",
             datatype: "json",
@@ -85,7 +85,6 @@ const App: React.FC = () => {
     };
 
     fetchIntradayData();
-    */
   }, []);
 
   useEffect(() => {
