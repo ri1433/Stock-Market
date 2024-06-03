@@ -1,5 +1,4 @@
 import React from "react";
-import "./MarketsSummary.css";
 
 interface MarketSummaryProps {
   headline: string;
@@ -9,14 +8,13 @@ interface MarketSummaryProps {
 const MarketSummary: React.FC<MarketSummaryProps> = ({
   headline,
   sentiment,
-}) => (
-  <section className="market-summary">
-    <div className="summary-header">
-      <span className="sentiment">{sentiment}</span>
+}) => {
+  return (
+    <div className="p-4 bg-gray-800 rounded-lg shadow">
+      <h2 className="text-lg mb-2">The markets are {sentiment}</h2>
+      <p>{headline}</p>
     </div>
-    <h2>Market Summary</h2>
-    <p>{headline}</p>
-  </section>
-);
+  );
+};
 
 export default MarketSummary;
