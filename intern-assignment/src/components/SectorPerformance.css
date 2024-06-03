@@ -1,0 +1,32 @@
+.sector-performance {
+  background-color: #292929;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.sector-performance h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.sector-performance ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sector-performance li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.positive {
+  color: #0f0;
+}
+
+.negative {
+  color: #f00;
+}

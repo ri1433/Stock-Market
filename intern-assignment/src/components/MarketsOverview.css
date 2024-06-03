@@ -1,0 +1,35 @@
+.markets-overview {
+  background-color: #292929;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.markets-overview h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.markets-overview ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.markets-overview li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.positive {
+  color: #0f0;
+}
+
+.negative {
+  color: #f00;
+}

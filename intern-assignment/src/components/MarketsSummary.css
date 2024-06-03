@@ -1,0 +1,31 @@
+.market-summary {
+  background-color: #292929;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sentiment {
+  background-color: #333;
+  color: #0f0;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.market-summary h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.market-summary p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
